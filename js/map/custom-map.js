@@ -195,7 +195,7 @@ function createHomepageGoogleMap(_latitude,_longitude){
             var newMarkers = [];
             for (i = 0; i < locations.length; i++) {
                 var pictureLabel = document.createElement("img");
-                pictureLabel.src = locations[i][6];
+                pictureLabel.src = locations[i][5];
                 var boxText = document.createElement("div");
                 infoboxOptions = {
                     content: boxText,
