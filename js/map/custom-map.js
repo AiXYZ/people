@@ -229,7 +229,7 @@ function createHomepageGoogleMap(_latitude,_longitude){
 							'<a href="#">' +
 								'<h5 class="people-name">' + locations[i][0] + ' <i class="glyphicon glyphicon-ok-sign" aria-hidden="true"></i></h5>' +
 							'</a>' +
-							'<span><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>' + locations[i][1] + '</span>' +
+							'<span><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i> ' + locations[i][1] + '</span>' +
 						'</div>' +
 					'</div>';
                 //Define the infobox
