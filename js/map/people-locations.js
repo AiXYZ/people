@@ -1,5 +1,5 @@
 var locations = [
-    ['Ali Akhtar Mohammed', "3225 George Street, Las Vegas", "verified", 36.169941, -115.139830, "img/people_photos/people_male_big.png", "img/map/people_male.png"],
+    ['Ali', "3225 George Street, Las Vegas", "verified", 36.169941, -115.139830, "img/people_photos/people_male_big.png", "img/map/people_male.png"],
     ['Adnan Ahmad', "3225 George Street, Los Angeles", "verified", 34.052234, -118.243685, "img/people_photos/people_male_big.png", "img/map/people_male.png"],
     ['Genesis B. Lista', "3225 George Street, San Francisco", "verified", 37.774929, -122.419416, "img/people_photos/people_male_big.png", "img/map/people_male.png"],
     ['Anjali Singh', "3225 George Street, San Jose", "verified", 37.338208, -121.886329, "img/people_photos/people_female_big.png", "img/map/people_female.png"],
