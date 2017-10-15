@@ -16,7 +16,15 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-
+	<!-- http://localhost:8080/people/profile.php?id=100013489710942 -->
+	<!-- http://localhost:8080/people/profile.php?user=100013489710942 -->
+	<?php 
+	$getName = explode("/",$_SERVER['REQUEST_URI']);	
+	echo $getName[3];
+	
+	
+	?>
+	<h1>Hello, world!</h1>
 
     <!-- JavaScript plugins -->
     <script src="js/jquery.min.js"></script>
