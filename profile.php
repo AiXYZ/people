@@ -17,14 +17,16 @@
   </head>
   <body>
 	<!-- http://localhost:8080/people/profile.php?id=100013489710942 -->
-	<!-- http://localhost:8080/people/profile.php?user=100013489710942 -->
+	<!-- http://localhost:8080/people/EngAli -->
 	<?php 
-	$getName = explode("/",$_SERVER['REQUEST_URI']);	
-	echo $getName[3];
-	
-	
+    if(!empty($_GET['id'])){
+    	$user = $_GET['id'];
+    }else{
+    	$user = "no";
+    }
 	?>
-	<h1>Hello, world!</h1>
+	
+	<h1><?php echo $user; ?></h1>
 
     <!-- JavaScript plugins -->
     <script src="js/jquery.min.js"></script>
