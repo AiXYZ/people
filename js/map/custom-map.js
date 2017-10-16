@@ -222,11 +222,11 @@ function createHomepageGoogleMap(_latitude,_longitude){
                 newMarkers.push(marker);
                 boxText.innerHTML =
                     '<div class="people_grid">' +
-						'<a href="#">' +
+						'<a href="'+locations[i][2]+'">' +
 							'<img src="' + locations[i][5] + '">' +
 						'</a>' +
 						'<div class="people-address">' +
-							'<a href="#">' +
+							'<a href="'+locations[i][2]+'">' +
 								'<h5 class="people-name">' + locations[i][0] + ' <i class="glyphicon glyphicon-ok-sign" aria-hidden="true"></i></h5>' +
 							'</a>' +
 							'<span><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i> ' + locations[i][1] + '</span>' +

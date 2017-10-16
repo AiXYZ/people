@@ -46,16 +46,33 @@
 	<script src="js/map/markerwithlabel_packed.js"></script> 
 	<script src="js/map/infobox.js"></script>
 	<script src="js/map/markerclusterer_packed.js"></script> 
-	<script src="js/map/custom-map.js"></script> 
+	<script src="js/map/custom-map.js"></script> 	  
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92408531-2"></script><!-- Google Analytics -->
 	<script>
-		_latitude = 36.596165;
-		_longitude = -97.062988;
-		createHomepageGoogleMap(_latitude,_longitude);
-		
+		//map
+		$.getJSON('http://api.wipmania.com/jsonp?callback=?', function (data) { 
+			/*
+			console.log('Latitude: ' + data.latitude + '\nLongitude: ' + data.longitude + '\nCountry: ' + data.address.country); 
+			_latitude = 36.596165;
+			_longitude = -97.062988;
+			*/		
+			_latitude = data.latitude;
+			_longitude = data.longitude;
+			createHomepageGoogleMap(_latitude,_longitude);			  
+		});
+	
+		//Google Analytics
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-92408531-2');
+
 		//Page Loader
 		$(window).load(function() {
 			$(".page-loading").fadeOut("slow");
-		})		
-	</script>	  
+		})
+				
+	</script>
+	
   </body>
 </html>
