@@ -134,3 +134,19 @@
 .infobox-wrapper .people-address {
 	padding: 0 11px 11px 11px;
 }
+
+/* Profile */
+/* Move down content because we have a fixed navbar that is 50px tall */
+.bodyClass{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand > img {
+  height: 100%;
+  padding: 10px;
+  width: auto;
+}
