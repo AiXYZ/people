@@ -136,8 +136,7 @@
 }
 
 /* Profile */
-/* Move down content because we have a fixed navbar that is 50px tall */
-.bodyClass{
+.bodyClass{ /* Move down content because we have a fixed navbar that is 50px tall */
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -150,3 +149,14 @@
   padding: 10px;
   width: auto;
 }
+
+.coverPhont {
+    background: url('https://unsplash.it/1900/1080?image=304') no-repeat center center scroll;
+    background-color: #eee;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+

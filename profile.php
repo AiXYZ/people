@@ -45,44 +45,51 @@ if(!empty($_GET['id'])){
           <a class="navbar-brand" href="#"><img src="img/people-logo.png" alt="People"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
           <form class="navbar-form navbar-right">
 		    <div class="input-group">
 		      <input type="text" class="form-control">
 		      <span class="input-group-btn">
 		        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
 		      </span>
-		    </div><!-- /input-group -->            
-          </form>
+		    </div><!-- /input-group -->
+          </form>          
+          
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
+    <!-- background image -->
+    <header class="coverPhont">
+	    <div class="container">
+	      <!-- Example row of columns -->
+	      <div class="row">
+	        <div class="col-md-4">
+	          <img src="img/people_photos/haimanti.png" class="img-thumbnail">
+	        </div>
+	        <div class="col-md-4">
+	          <h2>Heading</h2>
+	          <p>Donec id elit non</p>
+	          <p>Donec id elit non</p>
+	          <p>Donec id elit non</p>
+	       </div>
+	      </div>
+	    </div> <!-- /container -->
+            
+    </header>
+
+    
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-
       <hr>
-
       <footer>
         <p>&copy; 2016 Company, Inc.</p>
       </footer>
-    </div> <!-- /container -->
+    </div> <!-- /container -->    
 
     <!-- JavaScript plugins -->
     <script src="js/jquery.min.js"></script>
