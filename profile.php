@@ -3,14 +3,13 @@
 http://localhost:8080/people/profile.php?id=100013489710942
 http://localhost:8080/people/EngAli 
 username minimum length is 5 
- 
- */
+*/
 if(!empty($_GET['id'])){
 	$username = $_GET['id'];
 }else{
 	$username = "no";
 }
-//echo $username;
+$profileUrl = "http://peoplealpha.azurewebsites.net/" . $username;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -67,22 +66,25 @@ if(!empty($_GET['id'])){
     <!-- background image -->
     <header class="coverPhont">
 	    <div class="container">
-	      <!-- Example row of columns -->
-	      <div class="row">
+	      <div class="row" style="padding-top: 320px;">
 	        <div class="col-md-4">
 	          <img src="img/people_photos/haimanti.png" class="img-thumbnail">
 	        </div>
-	        <div class="col-md-4">
-	          <h2>Heading</h2>
-	          <p>Donec id elit non</p>
-	          <p>Donec id elit non</p>
-	          <p>Donec id elit non</p>
-	       </div>
-	      </div>
-	    </div> <!-- /container -->
-            
+	      </div>	      	      
+	    </div>
     </header>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Haimanti Das</h1>
+          <h3>Software Engineer</h3>
+          <p><span class="glyphicon glyphicon-search"></span> Riyadh, Saudi Arabia</p>
+          <a href="<?php echo $profileUrl ?>"><?php echo $profileUrl ?></a>
+          <p>Engineer, Public Speaker, Political Critic</p>
+        </div>
+      </div>
+    </div> <!-- /container --> 
     
     <div class="container">
       <hr>
