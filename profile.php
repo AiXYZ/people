@@ -63,16 +63,16 @@ $profileUrl = "http://peoplealpha.azurewebsites.net/" . $username;
       </div>
     </nav>
 
-    <!-- background image -->
-    <header class="coverPhont">
-	    <div class="container">
-	      <div class="row" style="padding-top: 320px;">
-	        <div class="col-md-4">
-	          <img src="img/people_photos/haimanti.png" class="img-thumbnail">
-	        </div>
-	      </div>	      	      
-	    </div>
+    <!-- Header -->
+    <header class="pHead">
+      <div class="container">
+        <img class="img-thumbnail" src="img/people_photos/haimanti.png" alt="">
+        <h1>Haimanti Das</h1>
+        <h3>Software Engineer</h3>
+      </div>
     </header>
+
+
 
     <div class="container">
       <div class="row">

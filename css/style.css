@@ -150,13 +150,19 @@
   width: auto;
 }
 
-.coverPhont {
-    background: url('https://unsplash.it/1900/1080?image=304') no-repeat center center scroll;
-    background-color: #eee;
-    height: 500px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+header.pHead {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+	background: url('https://unsplash.it/1900/1080?image=304') no-repeat center center scroll;
+	background-color: #eee;
+	webkit-background-size: cover;
+	moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
+header.pHead img {
+	display: block;
+	margin: 0 auto 20px; 
+}
