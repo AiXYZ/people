@@ -154,7 +154,6 @@ header.pHead {
 	padding-top: 100px;
 	padding-bottom: 50px;
 	text-align: center;
-	background: url('https://unsplash.it/1900/1080?image=304') no-repeat center center scroll;
 	background-color: #eee;
 	webkit-background-size: cover;
 	moz-background-size: cover;
@@ -165,4 +164,18 @@ header.pHead {
 header.pHead img {
 	display: block;
 	margin: 0 auto 20px; 
+	max-width: 250px;
+    max-height: 250px;	
+}
+
+header.pHead h1 {
+    color: #fff;
+    text-shadow: 0 0 3px rgba(0,0,0,.8);
+    margin-bottom: 2px;
+}
+
+header.pHead h4 {
+    color: #fff;
+    text-shadow: 0 0 3px rgba(0,0,0,.8);	
+    margin-top: 2px;
 }
