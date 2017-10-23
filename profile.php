@@ -66,51 +66,109 @@ $profileUrl = "http://peoplealpha.azurewebsites.net/" . $username;
     <!-- Header -->
     <header class="pHead" style="background-image: url('img/people_photos/cover/1080.jpg');">
       <div class="container">
-        <img class="img-thumbnail" src="img/people_photos/haimanti.png" alt="">
-        <h1>Haimanti Das</h1>
+        <img class="img-thumbnail" src="img/people_photos/ali.png" alt="">
+        <h1>Ali Akhtar Mohammed</h1>
         <h4>Software Engineer</h4>
       </div>
     </header>
 
-	<!-- Experience -->
 	<div class="container">
-	  <h2>Media Object</h2>
-	  <p>The media object can also be top, middle or bottom-aligned with the "media-top", "media-middle" or "media-bottom" class:</p><br>
+	  <h4 class="text-center">Engineer, Public Speaker, Political Critic</h4>
+	  <!-- Education -->
+	  <h3>Education</h3>
 	  <div class="media">
 	    <div class="media-left media-top">
-	      <img src="img/people_photos/haimanti.png" class="media-object" style="width:80px">
+	      <img src="img/education/stanford.png" class="media-object" style="width:80px">
 	    </div>
 	    <div class="media-body">
-	      <h4 class="media-heading">Media Top</h4>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	      <h4 class="media-heading">Stanford University</h4>
+	      <p>MS - Innovation and Entrepreneurship</p>
+	      <p>2013 - 2014</p>
+	      <p>
+			A greater understanding of the tools that every innovative organization needs to succeed.
+			A wider and deeper set of innovation skills, customized to fit both your organization’s needs and your career goals.
+			A greater understanding the best and most current research on innovation and entrepreneurship.
+			Deeper insights into the people you are serving - a powerful tool for innovation.
+			The joy of learning from and engaging with some of Stanford’s smartest and most entertaining teachers
+			Personal feedback and advice from Stanford’s team of innovation coaches.
+	      </p>
 	    </div>
 	  </div>
 	  <hr>
 	  <div class="media">
-	    <div class="media-left media-middle">
-	      <img src="img/people_photos/haimanti.png" class="media-object" style="width:80px">
+	    <div class="media-left media-top">
+	      <img src="img/education/mgr.png" class="media-object" style="width:80px">
 	    </div>
 	    <div class="media-body">
-	      <h4 class="media-heading">Media Middle</h4>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	      <h4 class="media-heading">Dr. M.G.R. University</h4>
+	      <p>B. Tech - Computer Science And Engineering</p>
+	      <p>2009 - 2013</p>
+	      <p>
+			Was awarded the First Prize Winner for project zoom by Mr. Shibu Thomas, Associate Director of Projects - Cognizant. 
+			Winner of IBM Master the Mainframe Contest 2012 and eligible to be in first 200 candidates to pass Part-2.
+	      </p>
 	    </div>
 	  </div>
 	  <hr>
 	  <div class="media">
-	    <div class="media-left media-bottom">
-	      <img src="img_avatar1.png" class="media-object" style="width:80px">
+	    <div class="media-left media-top">
+	      <img src="img/education/university.png" class="media-object" style="width:80px">
 	    </div>
 	    <div class="media-body">
-	      <h4 class="media-heading">Media Bottom</h4>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	      <h4 class="media-heading">Kamla Rai College</h4>
+	      <p>Senior Secondary - Mathematics and Science</p>
+	      <p>2007 - 2009</p>
+	      <p></p>
 	    </div>
 	  </div>
+	  
+	  <!-- Work -->
+	  <h3>Work</h3>
+	  <div class="media">
+	    <div class="media-left media-top">
+	      <img src="img/education/stanford.png" class="media-object" style="width:80px">
+	    </div>
+	    <div class="media-body">
+	      <h4 class="media-heading">Stanford University</h4>
+	      <p>MS - Innovation and Entrepreneurship</p>
+	      <p>2013 - 2014</p>
+	      <p>
+			A greater understanding of the tools that every innovative organization needs to succeed.
+			A wider and deeper set of innovation skills, customized to fit both your organization’s needs and your career goals.
+			A greater understanding the best and most current research on innovation and entrepreneurship.
+			Deeper insights into the people you are serving - a powerful tool for innovation.
+			The joy of learning from and engaging with some of Stanford’s smartest and most entertaining teachers
+			Personal feedback and advice from Stanford’s team of innovation coaches.
+	      </p>
+	    </div>
+	  </div>
+	  <hr>
+	  <div class="media">
+	    <div class="media-left media-top">
+	      <img src="img/education/mgr.png" class="media-object" style="width:80px">
+	    </div>
+	    <div class="media-body">
+	      <h4 class="media-heading">Dr. M.G.R. University</h4>
+	      <p>B. Tech - Computer Science And Engineering</p>
+	      <p>2009 - 2013</p>
+	      <p>
+			Was awarded the First Prize Winner for project zoom by Mr. Shibu Thomas, Associate Director of Projects - Cognizant. 
+			Winner of IBM Master the Mainframe Contest 2012 and eligible to be in first 200 candidates to pass Part-2.
+	      </p>
+	    </div>
+	  </div>
+	  <hr>
+	  <div class="media">
+	    <div class="media-left media-top">
+	      <img src="img/education/university.png" class="media-object" style="width:80px">
+	    </div>
+	    <div class="media-body">
+	      <h4 class="media-heading">Kamla Rai College</h4>
+	      <p>Senior Secondary - Mathematics and Science</p>
+	      <p>2007 - 2009</p>
+	      <p></p>
+	    </div>
+	  </div>	  
 	</div>
 
 
