@@ -28,7 +28,6 @@ $profileUrl = "http://peoplealpha.azurewebsites.net/" . $username;
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-	<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
@@ -75,17 +74,17 @@ $profileUrl = "http://peoplealpha.azurewebsites.net/" . $username;
     </header>
 
 	<div class="container">
-	  <h4 class="text-center">Engineer, Public Speaker, Political Critic</h4>
+	  <h4 class="text-center bio">Engineer, Public Speaker, Political Critic</h4>
 	  <!-- Education -->
 	  <h3>Education</h3>
 	  <div class="media">
 	    <div class="media-left media-top">
-	      <img src="img/education/stanford.png" class="media-object" style="width:80px">
+	      <img src="img/education/stanford.png" class="media-object mediaLogo">
 	    </div>
 	    <div class="media-body">
 	      <h4 class="media-heading">Stanford University</h4>
-	      <p>MS - Innovation and Entrepreneurship</p>
-	      <p>2013 - 2014</p>
+	      <p><strong>MS - Innovation and Entrepreneurship</strong></p>
+	      <p class="timePeriod">2013 - 2014</p>
 	      <p>
 			A greater understanding of the tools that every innovative organization needs to succeed.
 			A wider and deeper set of innovation skills, customized to fit both your organization’s needs and your career goals.
@@ -96,44 +95,43 @@ $profileUrl = "http://peoplealpha.azurewebsites.net/" . $username;
 	      </p>
 	    </div>
 	  </div>
-	  <hr>
 	  <div class="media">
 	    <div class="media-left media-top">
-	      <img src="img/education/mgr.png" class="media-object" style="width:80px">
+	      <img src="img/education/mgr.png" class="media-object mediaLogo">
 	    </div>
 	    <div class="media-body">
 	      <h4 class="media-heading">Dr. M.G.R. University</h4>
-	      <p>B. Tech - Computer Science And Engineering</p>
-	      <p>2009 - 2013</p>
+	      <p><strong>B. Tech - Computer Science And Engineering</strong></p>
+	      <p class="timePeriod">2009 - 2013</p>
 	      <p>
 			Was awarded the First Prize Winner for project zoom by Mr. Shibu Thomas, Associate Director of Projects - Cognizant. 
 			Winner of IBM Master the Mainframe Contest 2012 and eligible to be in first 200 candidates to pass Part-2.
 	      </p>
 	    </div>
 	  </div>
-	  <hr>
 	  <div class="media">
 	    <div class="media-left media-top">
-	      <img src="img/education/university.png" class="media-object" style="width:80px">
+	      <img src="img/education/university.png" class="media-object mediaLogo">
 	    </div>
 	    <div class="media-body">
 	      <h4 class="media-heading">Kamla Rai College</h4>
-	      <p>Senior Secondary - Mathematics and Science</p>
-	      <p>2007 - 2009</p>
+	      <p><strong>Senior Secondary - Mathematics and Science</strong></p>
+	      <p class="timePeriod">2007 - 2009</p>
 	      <p></p>
 	    </div>
 	  </div>
+	  <hr>
 	  
 	  <!-- Work -->
 	  <h3>Work</h3>
 	  <div class="media">
 	    <div class="media-left media-top">
-	      <img src="img/work/qmax.png" class="media-object" style="width:80px">
+	      <img src="img/work/qmax.png" class="media-object mediaLogo">
 	    </div>
 	    <div class="media-body">
 	      <h4 class="media-heading">Qmax Systems</h4>
-	      <p>Software Engineer</p>
-	      <p>2013 - 2015</p>
+	      <p><strong>Software Engineer</strong></p>
+	      <p class="timePeriod">2013 - 2015</p>
 	      <p>
 			Responsible for developing and coding web and desktop-based software.
 			Wrote well designed, testable, efficient code that meets specifications and follows standards.
@@ -148,15 +146,14 @@ $profileUrl = "http://peoplealpha.azurewebsites.net/" . $username;
 	      </p>
 	    </div>
 	  </div>
-	  <hr>
 	  <div class="media">
 	    <div class="media-left media-top">
-	      <img src="img/work/emc.png" class="media-object" style="width:80px">
+	      <img src="img/work/emc.png" class="media-object mediaLogo">
 	    </div>
 	    <div class="media-body">
 	      <h4 class="media-heading">EMC</h4>
-	      <p>Student Ambassador</p>
-	      <p>2013 - 2014</p>
+	      <p><strong>Student Ambassador</strong></p>
+	      <p class="timePeriod">2013 - 2014</p>
 	      <p>
 			Serve as a bridge between EMC Corporation and Universities. 
 			Conduct seminars and organize events to create awareness about EMC and EMC Academic Alliance Program. 
@@ -164,18 +161,18 @@ $profileUrl = "http://peoplealpha.azurewebsites.net/" . $username;
 	      </p>
 	    </div>
 	  </div>
-	  <hr>
 	  <div class="media">
 	    <div class="media-left media-top">
-	      <img src="img/work/microsoft.png" class="media-object" style="width:80px">
+	      <img src="img/work/microsoft.png" class="media-object mediaLogo">
 	    </div>
 	    <div class="media-body">
 	      <h4 class="media-heading">Microsoft</h4>
-	      <p>MSP</p>
+	      <p><strong>MSP</strong></p>
 	      <p>2013 - 2013</p>
-	      <p></p>
+	      <p class="timePeriod"></p>
 	    </div>
 	  </div>
+	  <hr>
 	  
 	  <!-- Contact -->
 	  <h3>Contact</h3>	  

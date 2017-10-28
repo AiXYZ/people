@@ -179,3 +179,16 @@ header.pHead h4 {
     text-shadow: 0 0 3px rgba(0,0,0,.8);	
     margin-top: 2px;
 }
+
+.bio {
+    padding: 20px;
+}
+
+.timePeriod {
+    margin-top: -10px;
+}
+
+.mediaLogo {
+    width: 62px;
+    border-radius: 4px;
+}
